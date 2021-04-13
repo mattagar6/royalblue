@@ -160,7 +160,7 @@ int main(){
  * 		- 'merge' returns a new treap from 2 other treaps, the input treaps are no longer valid.
  * 			- Similar for 'split', but it returns 2 new treaps
  * 
- * 		- Use new_node(...) to creat a new node (modify parameters to initialize node data).
+ * 		- Use new_node(...) to create a new node (modify parameters to initialize node data).
  * 		- Make sure to call 'prop(treap)' and 'recalc(treap)' whenever you touch/modify a treap node.
  * 		- Make 'MAXN' big enough.
  * 
