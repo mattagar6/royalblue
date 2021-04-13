@@ -72,6 +72,7 @@ array<nodep,2> split(nodep treap, int onLeft) {
 		assert(onLeft == 0);
 		return {NULL, NULL};
 	} else {
+		treap->par = NULL;
 		prop(treap);
 		if(size(treap->left) >= onLeft) {
 			auto ret = split(treap->left, onLeft);
